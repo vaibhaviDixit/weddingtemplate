@@ -1,0 +1,140 @@
+
+nav *{
+  user-select: none;
+  color: var(--color-secondary-1) !important;
+}
+nav{
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+
+}
+nav a{
+  font-family: var(--base-font) !important;
+}
+nav .nav-link{
+  font-size: 18px;
+  margin: auto 20px;
+}
+nav .nav-link:hover{
+  opacity: .8;
+}
+
+nav .nav-link:focus,
+nav .nav-link:active{
+  opacity: .6;
+}
+
+nav .btn-secondary{
+  color: var(--color-primary-1) !important;
+  width: 180px !important;
+}
+
+.navbar-toggler{
+  border: none !important;
+  padding: 0 !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active{
+  box-shadow: none !important;
+}
+#app{
+  /*margin-top: 20vh !important;*/
+}
+
+.navbar-brand{
+  font-size: 24px;
+}
+
+.dropdown-menu *{
+  color: var(--color-black) !important;
+
+}
+
+/* --------------- */
+
+a{
+    text-decoration: none !important;
+}
+
+/* section head*/
+.section-head{
+  color: var(--color-primary-1);
+  text-align: center;
+  margin:1.3rem 0;
+}
+
+/* hero section css */
+
+#heroSection{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+
+}
+    #heroCarousel {
+      position: relative;
+    }
+
+    #heroCarousel .item {
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Set your preferred height */
+      position: relative;
+    }
+
+        #heroCarousel .item h2
+        {
+          font-size: 3rem;
+        }
+
+    .days,.min,.hours,.sec{
+      font-size: 2rem;
+    }
+
+    #heroCarousel .item::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+    }
+
+    #heroCarousel .carousel-caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white; /* Adjust the text color */
+      text-align: center;
+    }
+
+/* hero section css ends*/
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+}
+
+
+/* Small devices (Smartphones, 425px and up) */
+@media (max-width: 425px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+/* Extra Small devices (Smartphones, 350px and up) */
+@media (max-width: 350px) {
+  .navbar-brand {
+    font-size: 16px !important;
+  }
+
+}
+
