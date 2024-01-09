@@ -3,12 +3,12 @@ nav *{
   user-select: none;
   color: var(--color-secondary-1) !important;
 }
-nav{
+/*nav{
   position: absolute !important;
   top: 0 !important;
   left: 0 !important;
 
-}
+}*/
 nav a{
   font-family: var(--base-font) !important;
 }
@@ -57,6 +57,13 @@ a{
     text-decoration: none !important;
 }
 
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
 /* section head*/
 .section-head{
   color: var(--color-primary-1);
@@ -77,6 +84,15 @@ section{
   position: relative;
 
 }
+
+.carousel-caption{
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    right: 0;
+    bottom: 0;
+}
+
     #heroCarousel {
       position: relative;
     }

@@ -13,15 +13,21 @@
     <div id="app" class="">
         <!-- main content here -->
 
+
+    <!-- Floating Button using Bootstrap -->
+    <div class="fixed-button">
+        <button class="btn btn-primary">RSVP</button>
+    </div>
+
           <!-- Hero start -->
         <section class="container-fluid" id="heroSection">
-                <?php require('views/partials/nav.php'); ?>
+               
           <div id="heroCarousel" class="owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="item" style="background-image: url('https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg');">
               <div class="carousel-caption">
                 <p class="text-secondary"><span class="lines">The Wedding Of</span></p>
-                <h2 class="text-primary">Rehan & Kavya</h2>
+                <h1 class="text-primary">Rehan & Kavya</h1>
                 <div class="d-flex justify-content-center align-items-center text-secondary gap-3">
                     <div>
                         <span class="days">03</span><br>
@@ -48,7 +54,7 @@
             <div class="item" style="background-image: url('https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
                 <div class="carousel-caption">
                 <p class="text-secondary"><span class="lines">The Wedding Of</span></p>
-                <h2 class="text-primary">Rehan & Kavya</h2>
+                <h1 class="text-primary">Rehan & Kavya</h1>
                 <div class="d-flex justify-content-center align-items-center text-secondary gap-3">
                     <div>
                         <span class="days">03</span><br>
@@ -75,7 +81,7 @@
             <div class="item" style="background-image: url('https://images.pexels.com/photos/931796/pexels-photo-931796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
                 <div class="carousel-caption">
                 <p class="text-secondary"><span class="lines">The Wedding Of</span></p>
-                <h2 class="text-primary">Rehan & Kavya</h2>
+                <h1 class="text-primary">Rehan & Kavya</h1>
                 <div class="d-flex justify-content-center align-items-center text-secondary gap-3">
                     <div>
                         <span class="days">03</span><br>
@@ -102,6 +108,8 @@
           </div>
         </section>
         <!-- Hero end -->
+
+ <?php require('views/partials/nav.php'); ?>
 
         <!-- about start -->
         <section class="container" id="aboutSection">

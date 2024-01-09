@@ -1,4 +1,4 @@
-<nav class="my-2 mx-2 navbar navbar-expand-lg bg-transparent navbar-sticky fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
     <div class="container px-0 py-2">
         <a class="navbar-brand font-heading ps-3 text-primary" href="<?php echo home(); ?>">
             <?= $config['APP_NAME'] ?>
@@ -11,20 +11,12 @@
             <?php if (url() != route('login')) { ?>
 
                 <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 d-flex align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#heroSection">Home</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#coupleSection">Bride & Groom</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#ourStorySection">Our Story</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#eventsSection">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">RSVP</a>
                     </li>
                      <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#gallerySection">Gallery</a>
