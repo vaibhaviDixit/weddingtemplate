@@ -455,7 +455,30 @@
                   }, 1000);
 
 
+                $(document).ready(function() {
+                    var lastScrollTop = 0;
+                    var heroSectionHeight = $('#heroSection').height(); // Replace with the actual ID of your hero section
+
+                    $(window).scroll(function(event) {
+                        var st = $(this).scrollTop();
+
+                        // Check if the user is not in the hero section
+                        if (st > heroSectionHeight) {
+                            // Show the navbar
+                            $('.navbar').addClass('visible');
+                        } else {
+                            // Hide the navbar
+                            $('.navbar').removeClass('visible');
+                        }
+
+                        lastScrollTop = st;
+                    });
+                });
+
+
                 </script>
+
+
 
 </body>
 

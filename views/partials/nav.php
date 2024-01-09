@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
     <div class="container px-0 py-2">
         <a class="navbar-brand font-heading ps-3 text-primary" href="<?php echo home(); ?>">
             <?= $config['APP_NAME'] ?>
