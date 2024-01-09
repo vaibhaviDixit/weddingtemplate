@@ -16,8 +16,50 @@
 
     <!-- Floating Button using Bootstrap -->
     <div class="fixed-button">
-        <button class="btn btn-primary">RSVP</button>
+        <button type="button" class="btn btn-primary text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            RSVP
+                        </button>
     </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Are you attending ?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <form>
+          <div class="">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="">
+            <label for="recipient-contact" class="col-form-label">Contact:</label>
+            <input type="text" class="form-control" id="recipient-contact">
+          </div>
+          <div class="">
+            <label for="recipient-number" class="col-form-label">Number of guests:</label>
+            <input type="number" class="form-control" id="recipient-number">
+          </div>
+          <div class="">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-sm btn-secondary text-light" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn-sm btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Modal ends -->
 
           <!-- Hero start -->
         <section class="container-fluid" id="heroSection">
