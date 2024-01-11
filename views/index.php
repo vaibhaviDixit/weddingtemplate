@@ -311,6 +311,36 @@
     </section>
     <!-- Events ends -->
 
+     <!-- Getting there start -->
+    <section class="container mt-2" id="eventsSection">
+
+      <h1 class="section-head">Getting There</h1>
+
+      <div class="row align-items-center">
+        
+        <div class="col-sm-4 text-start">
+            <h4 class="text-primary">Accomodation</h4>
+            <p>With elegantly designed rooms and top-notch amenities, our accommodations cater to both leisure and business guests. From the moment you step into our lobby, our attentive staff is dedicated to ensuring your stay is nothing short of exceptional. </p>
+
+        </div>
+
+        <div class="col-sm-4 text-center">
+          <img src="<?php assets('img/accomodation.png') ?>" class="img-fluid" width="100" height="100">
+        </div>
+
+        <div class="col-sm-4 text-end">
+            <h4 class="text-primary">Travel</h4>
+            <p>With elegantly designed rooms and top-notch amenities, our accommodations cater to both leisure and business guests. From the moment you step into our lobby, our attentive staff is dedicated to ensuring your stay is nothing short of exceptional. </p>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+    <!-- Getting there  ends -->
+
     <!-- gallery start -->
     <section class="container mt-2" id="gallerySection">
 
